@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+
 {
     'name': 'Restaurant Extension',
     'summary': 'Allow to transfer/ merge/ split table; Allow to connect directly to printer by using Order function',
@@ -9,8 +10,8 @@
     'description': """
     """,
     'author': "Hanel Software Solutions",
-    'website': 'http://www.hanelsoft.vn/',
     'depends': ['point_of_sale'],
+    'website': 'http://www.hanelsoft.vn/',
     'data': [
         'restaurant_view.xml',
         'security/ir.model.access.csv',
@@ -28,6 +29,6 @@
     ],
     'installable': True,
     'auto_install': False,
-    'price': 39.99,
+	'price': 39.99,
     'currency': 'EUR',
 }
